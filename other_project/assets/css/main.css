@@ -3428,16 +3428,20 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
+			font-weight: bold;
 		}
-
+		.material-icons {
+			vertical-align: middle;
+			margin-bottom: 2px;
+		}
 			#header > .logo a {
 				font-size: 1.25em;
-				color: #3498db;
+				color: white;
 			}
 
-				#header > .logo a:hover {
-					color: #3498db;
-				}
+			#header > .logo a:hover {
+				color: #3498db;
+			}
 
 			#header > .logo span {
 				font-weight: 300;
@@ -3710,7 +3714,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/IMG_1869.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
